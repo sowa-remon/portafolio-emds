@@ -1,0 +1,196 @@
+// Custom.scss
+$hatoPurple:#6F3565;
+$hatoDark: #1A1A1A;
+$hatoDarker: #0C0C0C;
+$hatoWhite: #E5E5E5;
+
+
+$body-bg: $hatoDark;
+
+@font-face {
+    font-family: lexendReg;
+    src: url(../resources/LexendDeca-Regular.ttf);
+}
+
+@font-face {
+    font-family: lexendBold;
+    src: url(../resources/LexendDeca-Bold.ttf);
+}
+
+.logito{
+    margin: 10px;
+    height:auto;
+    width: 50px;
+
+}
+
+.icon-folder{
+    height: auto;
+    width: 80px;
+}
+
+.mini-icon{
+    height: 15px;
+    width: auto;
+}
+
+.i{
+    height: 100%;
+    width: auto;
+    border-top-left-radius:40px;
+    border-bottom-left-radius:40px;
+}
+
+                        //      TEXTOS
+
+.nav-txt{
+    font-family: lexendReg;
+    font-size: medium;
+    color: $hatoWhite;
+}
+
+.big-txt-bold{
+    font-family: lexendBold;
+    font-size: 40px;
+    color: $hatoWhite;
+}
+
+.sub-txt{
+    font-family: lexendReg;
+    font-size: 30px;
+    color: $hatoWhite;
+}
+
+.blog-title{
+    font-family: lexendReg;
+    font-size: 20px;
+    color: $hatoWhite;
+}
+
+.folder-txt{
+    font-family: lexendReg;
+    font-size: 17px;
+    color: $hatoWhite;
+    align-self: center;
+}
+
+.footer-txt{
+    font-family: lexendReg;
+    font-size: 15px;
+    color:$hatoWhite;
+}
+
+.simple-text{
+    font-family: lexendReg;
+    color: $hatoDarker;
+    font-size: 15px;
+
+}
+
+
+.btn-blog, .btn-portafolio {
+    background: none;
+    padding: 2px;
+    border: none;
+    font-family: lexendReg;
+    font-size: medium;
+    color: #E5E5E5;
+    text-decoration: none;
+    -webkit-transition-duration: .7s;
+            transition-duration: .7s;
+  }
+  
+  .btn-blog-on{
+    padding: 3px;
+    background-color: #6F3565;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    font-family: lexendReg;
+    font-size: medium;
+    font-weight: bold;
+    color: #E5E5E5;
+    text-decoration: none;
+    -webkit-transition-duration: .7s;
+            transition-duration: .7s;
+  }
+  
+  .btn-blog:hover, .btn-portafolio:hover {
+    color: #6F3565;
+    text-decoration: none;
+  }
+  
+  .btn-blog-on:hover, .btn-portafolio-on:hover  {
+    background-color: #562c4f;
+    color: #1A1A1A;
+  }
+  
+  
+  .btn-portafolio-on {
+    padding: 3px;
+    background-color: #6F3565;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    font-family: lexendReg;
+    font-size: medium;
+    font-weight: bold;
+    color: #E5E5E5;
+    text-decoration: none;
+    -webkit-transition-duration: .7s;
+            transition-duration: .7s;
+  }
+  
+  
+            //  B A R R I T A S 
+
+.half-hr{
+    height: 2px;
+    align-self: center;
+    background-color: $hatoPurple;
+    width: 70%;
+    
+}
+
+.hr-white{
+    height: 2px;
+    width: 100%;
+    background-color: $hatoWhite;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+                // B  O  X  E  S
+.white-bubble{
+    background-color: $hatoWhite;
+    border-top-left-radius: 40px; 
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin: 0 3rem;
+    padding: 2rem;
+}
+
+
+.blog-bubble{
+    background-color: $hatoWhite;
+    border-radius: 40px;
+    padding: 2rem;
+  }
+
+.purple-box{
+    background-color: $hatoPurple;
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+footer{
+    background-color: $hatoDarker;
+    border-top: $hatoWhite;
+
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../node_modules/bootstrap/scss/bootstrap";

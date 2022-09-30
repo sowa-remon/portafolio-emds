@@ -168,6 +168,7 @@ $body-bg: $hatoDark;
     border-bottom-right-radius: 40px;
     margin: 0 3rem;
     padding: 2rem;
+    text-decoration: none;
 }
 
 
@@ -182,7 +183,11 @@ $body-bg: $hatoDark;
     border-radius: 20px;
     margin: 2rem;
     padding: 2rem;
+    text-decoration: none;
+    cursor: pointer;
 }
+
+
 
 footer{
     background-color: $hatoDarker;
